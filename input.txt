@@ -1,0 +1,14 @@
+"message Demand": {											// 需求信息
+		"srv": {
+			"optional uInt32 id": 1,							// 需求id
+			"optional uInt32 num": 2,							// 需求数量
+			"optional uInt32 learnNum": 3,						// 学习数量
+			"optional uInt32 status": 4,						// 0正常，1挂起 2失败，3成功
+			"optional uInt32 reason": 5,						// status变化原因
+
+			// 日报数据，字段可能不存在
+			"optional uInt32 score1": 11,						// 战力值
+			"optional uInt32 score2": 12,						// 暴力值
+			"optional uInt32 score3": 13,						// 美味值
+		}
+	},

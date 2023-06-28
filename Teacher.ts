@@ -1,0 +1,30 @@
+export class Teacher{
+  _id:number// 教员唯一id;
+  id:number// 教员id;
+  level:number// 教员等级;
+  star:number// 教员星级;
+  power:number// 教员战力;
+  attrInfo:TeacherAttrInfo// 属性信息;
+  _id:number// 教员唯一ID;
+  _id:number;
+  info:Teacher;
+  type:number// 0其它，1合成，2延时;
+  id:number;
+  info:Teacher;
+  item_id:number// 教员碎片id;
+  num:number// 碎片数量;
+  level:number;
+  _id:number// 教员唯一id;
+  star:number;
+  _id:number// 教员唯一id;
+  skillId:number// 技能id;
+  level:number;
+  _id:number// 教员唯一id;
+  _id:number;
+  skillId:number;
+  _id:number;
+  skillId:number;
+  level:number;
+  _id:number;
+  skillId:number;
+}
